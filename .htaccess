@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^accueil$ index.php [L]
+RewriteRule ^nos-services$ services.php [L]
+RewriteRule ^a-propos$ about.php [L]
+RewriteRule ^nos-creations$ portfolio.php [L]
+RewriteRule ^contact$ contact.php [L]
