@@ -23,5 +23,6 @@
 
 </footer>
 
+<script type="module" src="assets/JS/script.js"></script>
 </body>
 </html>

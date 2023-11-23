@@ -6,7 +6,6 @@
     <title>One Punch Com</title>
     
     <link rel="stylesheet" href="assets/CSS/style.css">
-    <script src="assets/JS/script.js"></script>
 </head>
 <body class="">
 
