@@ -1,10 +1,10 @@
 <?php
 require_once __DIR__ . '../layout/header.php';
 ?>
-
-<div class="home-first-slide">
+<div class= "carousel-container" >
+  <div class="home-first-slide">
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/web-development-businessman-working-with-virtual-2023-06-15-01-05-04-utc.mov" type="video/mp4">
+            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
 
     <div class="overlay">
@@ -26,7 +26,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/web-development-businessman-working-with-virtual-2023-06-15-01-05-04-utc.mov" type="video/mp4">
+            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-blue">
         <div class="heading-slide">
@@ -43,7 +43,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/web-development-businessman-working-with-virtual-2023-06-15-01-05-04-utc.mov" type="video/mp4">
+            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-red">
         <div class="heading-slide">
@@ -60,7 +60,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/web-development-businessman-working-with-virtual-2023-06-15-01-05-04-utc.mov" type="video/mp4">
+            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-blue">
         <div class="heading-slide">
@@ -78,7 +78,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/web-development-businessman-working-with-virtual-2023-06-15-01-05-04-utc.mov" type="video/mp4">
+            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-red">
         <div class="heading-slide">
@@ -90,6 +90,10 @@ require_once __DIR__ . '../layout/header.php';
             </div>
         </div>
     </div>
+</div>
+   <button class="carousel-control prev">⟨</button> <!-- Chevrons gauche -->
+  <button class="carousel-control next">⟩</button> <!-- Chevrons droite -->
+
 </div>
 
 <?php 

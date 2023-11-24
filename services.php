@@ -4,7 +4,7 @@ require_once __DIR__ . '../layout/header.php';
 ?>
 
 
-<div class="carousel-container">
+<div class="carousel-services-container">
 <main>
   <ul class='slider'>
     <li class='item' style="background-image: url('assets/IMG/Images/devweb-design.jpg')">
@@ -13,7 +13,9 @@ require_once __DIR__ . '../layout/header.php';
         <p class='description'> Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
         praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button class="white-btn-blue">En savoir plus</button>
+        <button class="white-btn-blue">
+            <a href="creations-web">En savoir plus</a>
+        </button>
       </div>
     </li>
     <li class='item' style="background-image: url('assets/IMG/Images/audio-visuel_communication.jpg')">
@@ -22,7 +24,9 @@ require_once __DIR__ . '../layout/header.php';
         <p class='description'> Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
         praesentium nisi. Id laboriosam ipsam enim.  </p>
-        <button class="white-btn-red">En savoir plus</button>
+        <button class="white-btn-red">
+            <a href="creations-audiovisuel">En savoir plus</a>
+        </button>
       </div>
     </li>
     <li class='item' style="background-image: url('assets/IMG/Images/digital-marketing-1725340_640.jpg')">
@@ -31,7 +35,9 @@ require_once __DIR__ . '../layout/header.php';
         <p class='description'>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
         </p>
-        <button class="white-btn-blue">En savoir plus</button>
+        <button class="white-btn-blue">
+            <a href="creations-web">En savoir plus</a>
+        </button>
       </div>
     </li>
 
@@ -41,23 +47,18 @@ require_once __DIR__ . '../layout/header.php';
         <p class='description'>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
         </p>
-        <button class="white-btn-red">En savoir plus</button>
+        <button class="white-btn-red">
+            <a href="creations-audiovisuel">En savoir plus</a>
+        </button>
       </div>
     </li>
 
   </ul>
-  <nav class='nav'>
-    <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-    <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
-  </nav>
 </main>
 </div>
 
 
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+<script src="assets/JS/service.js"></script>
 <?php 
 require_once __DIR__ . '../layout/footer.php';
 ?>
