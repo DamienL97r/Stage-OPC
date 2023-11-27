@@ -2,9 +2,28 @@
 require_once __DIR__ . '../layout/header.php';
 ?>
 <div class= "carousel-container" >
+    
+    <div class="carousel-counter">
+        <div class="carousel-counter-item">
+            <p>.</p>
+        </div>
+        <div class="carousel-counter-item">
+            <p>.</p>
+        </div>
+        <div class="carousel-counter-item">
+            <p>.</p>
+        </div>
+        <div class="carousel-counter-item">
+            <p>.</p>
+        </div>
+        <div class="carousel-counter-item">
+            <p>.</p>
+        </div>
+    </div>
+
   <div class="home-first-slide">
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
+            <source src="/OPC/assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
 
     <div class="overlay">
@@ -26,7 +45,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
+            <source src="/OPC/assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-blue">
         <div class="heading-slide">
@@ -43,7 +62,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
+            <source src="/OPC/assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-red">
         <div class="heading-slide">
@@ -60,7 +79,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
+            <source src="/OPC/assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-blue">
         <div class="heading-slide">
@@ -78,7 +97,7 @@ require_once __DIR__ . '../layout/header.php';
 <div class="home-slide" >
 
         <video autoplay loop muted>
-            <source src="./assets/IMG/Videos/numerique.mp4" type="video/mp4">
+            <source src="/OPC/assets/IMG/Videos/numerique.mp4" type="video/mp4">
         </video>
     <div class="overlay-red">
         <div class="heading-slide">
@@ -96,6 +115,5 @@ require_once __DIR__ . '../layout/header.php';
 
 </div>
 
-<?php 
-require_once __DIR__ . '../layout/footer.php';
-?>
+
+<script src="/OPC/assets/JS/script.js"></script>

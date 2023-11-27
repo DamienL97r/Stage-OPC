@@ -1,8 +1,19 @@
 RewriteEngine On
-RewriteRule ^accueil$ index.php [L]
-RewriteRule ^nos-services$ services.php [L]
-RewriteRule ^creations-web$ services-web.php [L]
-RewriteRule ^creations-audiovisuel$ services-audiovisuel.php [L]
-RewriteRule ^a-propos$ about.php [L]
-RewriteRule ^nos-creations$ portfolio.php [L]
-RewriteRule ^contact$ contact.php [L]
+
+# Sous-domaine pour /portfolio
+RewriteRule ^nos-creations/projet-template$ /OPC/nomDuProjet.php [L]
+
+# Sous-domaine pour /creations-web
+RewriteRule ^nos-services/creations-web$ /OPC/services-web.php [L]
+
+# Sous-domaine pour /creations-audiovisuel
+RewriteRule ^nos-services/creations-audiovisuel$ /OPC/services-audiovisuel.php [L]
+
+# Règle principale pour /nos-services
+RewriteRule ^nos-services$ /OPC/services.php [L]
+
+# Règle spécifique pour l'accueil
+RewriteRule ^accueil$ /OPC/index.php [L]
+RewriteRule ^a-propos$ /OPC/about.php [L]
+RewriteRule ^nos-creations$ /OPC/portfolio.php [L]
+RewriteRule ^contact$ /OPC/contact.php [L]

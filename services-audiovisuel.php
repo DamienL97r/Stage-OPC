@@ -6,35 +6,35 @@ require_once __DIR__ . '../layout/header.php';
 <div class="service-nav">
     <div class="service-nav-item-red">
         <a href="#strategie">
-            <img src="assets/IMG/Icons/icons8-chevalier-96-REVERSE.png" alt="icon-strategie">
+            <img src="/OPC/assets/IMG/Icons/icons8-chevalier-96-REVERSE.png" alt="icon-strategie">
             <h4>Stratégie</h4>
         </a>
     </div>
 
     <div class="service-nav-item-red">
         <a href="#ecriture">
-            <img src="assets/IMG/Icons/remarques.png" alt="icon-strategie">
+            <img src="/OPC/assets/IMG/Icons/remarques.png" alt="icon-strategie">
             <h4>Ecriture</h4>
         </a>
     </div>
 
     <div class="service-nav-item-red">
         <a href="#realisation">
-            <img src="assets/IMG/Icons/camera.png" alt="icon-strategie">
+            <img src="/OPC/assets/IMG/Icons/camera.png" alt="icon-strategie">
             <h4>Réalisation</h4>
         </a>
     </div>
 
     <div class="service-nav-item-red">
         <a href="#montage">
-            <img src="assets/IMG/Icons/parametres.png" alt="icon-strategie">
+            <img src="/OPC/assets/IMG/Icons/parametres.png" alt="icon-strategie">
             <h4>Montage</h4>
         </a>
     </div>
 
     <div class="service-nav-item-red">
         <a href="#social-ads">
-            <img src="assets/IMG/Icons/croissance.png" alt="icon-strategie">
+            <img src="/OPC/assets/IMG/Icons/croissance.png" alt="icon-strategie">
             <h4>Social Ads</h4>
         </a>
     </div>
@@ -52,7 +52,7 @@ require_once __DIR__ . '../layout/header.php';
     <div class="service-content-container">
         <div class="service-content-img">
             <div class="fade-img-left-red"></div>
-            <img src="assets/IMG/Images/digital-marketing-1725340_640.jpg" alt="strategie-audio-visuel">
+            <img src="/OPC/assets/IMG/Images/digital-marketing-1725340_640.jpg" alt="strategie-audio-visuel">
             <div class="fade-img-right-red"></div>
         </div>
         
@@ -90,7 +90,7 @@ require_once __DIR__ . '../layout/header.php';
 
         <div class="service-content-img">
             <div class="fade-img-left-black"></div>
-            <img src="assets/IMG/Images/ecriture-scenario.jpg" alt="ecriture-scenario">
+            <img src="/OPC/assets/IMG/Images/ecriture-scenario.jpg" alt="ecriture-scenario">
             <div class="fade-img-right-black"></div>
         </div>
     </div>
@@ -150,7 +150,7 @@ require_once __DIR__ . '../layout/header.php';
     <div class="service-content-container">
         <div class="service-content-img">
             <div class="fade-img-left-red"></div>
-            <img src="assets/IMG/Images/phone-reseaux.jpg" alt="social-media">
+            <img src="/OPC/assets/IMG/Images/phone-reseaux.jpg" alt="social-media">
             <div class="fade-img-right-red"></div>
         </div>
         
@@ -173,4 +173,4 @@ require_once __DIR__ . '../layout/header.php';
 <div class="espaceur"></div>
 </div>
 
-<script src="assets/JS/serviceAudioVisuel.js"></script>
+<script src="/OPC/assets/JS/serviceAudioVisuel.js"></script>

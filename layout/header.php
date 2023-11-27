@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Punch Com</title>
     
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="/OPC/assets/CSS/style.css">
 </head>
 <body class="">
 
 <div class="navbar">
 
-    <img src="assets/IMG/Logo/ONE_PUNCH_LOGO-removebg-preview.png" alt="logo">
+    <img src="/OPC/assets/IMG/Logo/ONE_PUNCH_LOGO-removebg-preview.png" alt="logo">
 
     <button id="menu-toggle-btn" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
         <svg width="50" height="50" viewBox="0 0 100 100">
@@ -23,19 +23,19 @@
 </div>
 
 <nav id="menu">
-    <a class="onglet" href="accueil">Accueil</a>
-    <a class="onglet" href="nos-services">Nos services</a>
-    <a class="onglet" href="a-propos">A propos</a>
-    <a class="onglet" href="nos-creations">Nos créations</a>
-    <a class="onglet" href="contact">Contact</a>
+    <a class="onglet" href="/OPC/accueil">Accueil</a>
+    <a class="onglet" href="/OPC/nos-services">Nos services</a>
+    <a class="onglet" href="/OPC/a-propos">A propos</a>
+    <a class="onglet" href="/OPC/nos-creations">Nos créations</a>
+    <a class="onglet" href="/OPC/contact">Contact</a>
 
     <div class="information-menu-footer">
         <div class="item-information-menu-footer">
-            <img src="assets/IMG/Icons/contactIcons/enveloppe.png" alt="icon-mail">
+            <img src="/OPC/assets/IMG/Icons/contactIcons/enveloppe.png" alt="icon-mail">
             <a href="mailto:">onepunchcom@contact.com</a>
         </div>
         <div class="item-information-menu-footer">
-            <img src="assets/IMG/Icons/contactIcons/telephone.png" alt="icon-phone">
+            <img src="/OPC/assets/IMG/Icons/contactIcons/telephone.png" alt="icon-phone">
             <a href="tel:+">01 23 45 67 89</a>
         </div>
     </div>
