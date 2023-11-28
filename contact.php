@@ -34,7 +34,7 @@ require_once __DIR__ . '../layout/header.php';
     <div class="socials-info">
         <div class="contact-info-item">
             <img src="/OPC/assets/IMG/Icons/contactIcons/telephone.png" alt="">
-            <a href="#">Instagram</a>
+            <a href="https://www.arrimages.org/contact/contact.html">Instagram</a>
         </div>
 
         <div class="contact-info-item">

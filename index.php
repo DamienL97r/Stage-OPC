@@ -2,24 +2,46 @@
 require_once __DIR__ . '../layout/header.php';
 ?>
 <div class= "carousel-container" >
-    
+
     <div class="carousel-counter">
-        <div class="carousel-counter-item">
-            <p>.</p>
+        <div class="carousel-counter-item" id="1-home-slide">
+            <input type="radio" name="switch" id="i_1" checked>
+            <div class="timer-container">
+                <div class="timer-bar"  id="timer-bar-0"></div>
+                <div class="dot-slider"></div>
+            </div>
         </div>
-        <div class="carousel-counter-item">
-            <p>.</p>
+        <div class="carousel-counter-item" id="2-home-slide">
+            <input type="radio" name="switch" id="i_2">
+            <div class="timer-container">
+                <div class="timer-bar"  id="timer-bar-1"></div>
+                <div class="dot-slider"></div>
+            </div>
         </div>
-        <div class="carousel-counter-item">
-            <p>.</p>
+        <div class="carousel-counter-item" id="3-home-slide">
+            <input type="radio" name="switch" id="i_3">
+            <div class="timer-container">
+                <div class="timer-bar"  id="timer-bar-2"></div>
+                <div class="dot-slider"></div>
+            </div>
         </div>
-        <div class="carousel-counter-item">
-            <p>.</p>
+        <div class="carousel-counter-item" id="4-home-slide">
+            <input type="radio" name="switch" id="i_4">
+            <div class="timer-container">
+                <div class="timer-bar"  id="timer-bar-3"></div>
+                <div class="dot-slider"></div>
+            </div>
         </div>
-        <div class="carousel-counter-item">
-            <p>.</p>
+        <div class="carousel-counter-item" id="5-home-slide">
+            <input type="radio" name="switch" id="i_5">
+            <div class="timer-container">
+                <div class="timer-bar"  id="timer-bar-4"></div>
+                <div class="dot-slider"></div>
+            </div>
         </div>
     </div>
+
+    
 
   <div class="home-first-slide">
         <video autoplay loop muted>
@@ -112,6 +134,7 @@ require_once __DIR__ . '../layout/header.php';
 </div>
    <button class="carousel-control prev">⟨</button> <!-- Chevrons gauche -->
   <button class="carousel-control next">⟩</button> <!-- Chevrons droite -->
+
 
 </div>
 
