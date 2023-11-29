@@ -25,8 +25,10 @@ function changeVideoSlide(newIndex) {
     if (newIndex >= 0 && newIndex < videoSlides.length) {
         videoSlideIndex = newIndex;
         videoSlides.forEach((slide, index) => {
+            slide.style.transition = 'all 0.3s ease-in-out';
             slide.style.transform = `translateX(-${100 * videoSlideIndex}%)`;
         });
+        videoSlides[videoSlideIndex].style.opacity = 1;
         updateCarouselCounter();
         startTimerAnimation();
     }
@@ -84,12 +86,15 @@ function startTimerAnimation() {
     // Masquer les points du slider non sollicités
     document.querySelectorAll('.dot-slider').forEach((bar, index) => {
         if (index === videoSlideIndex) {
-            bar.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+            const isEven = index % 2 === 0;
+            const backgroundColor = isEven ? '#851A20' : '#1C5B84';
+            bar.style.backgroundColor = backgroundColor;
         } else {
             bar.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
         }
     });
 }
+
 
 // Initialisation du carrousel
 startAutoSlide();
@@ -122,20 +127,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+
+    //Couleur initial du premier dot-slider 
     document.querySelectorAll('.dot-slider').forEach((bar, index) => {
         if (index === 0) {
-            bar.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+            bar.style.backgroundColor = '#851A20';
         } else {
             bar.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
         }
     });
-});
-
-// Masquer les points du slider non sollicités
-document.querySelectorAll('.dot-slider').forEach((bar, index) => {
-    if (index === 0) {
-        bar.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-    } else {
-        bar.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-    }
 });

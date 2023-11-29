@@ -385,6 +385,14 @@ footer{
     animation: rotate 4s linear infinite;
 }
 
+.timer-bar-blue {
+    border-top: 3px solid #1C5B84;
+}
+
+.timer-bar-red {
+    border-top: 3px solid #851A20;
+}
+
 .dot-slider {
     width:  0.5rem;
     height: 0.5rem;
@@ -404,6 +412,7 @@ footer{
         transform: rotate(300deg);
     }
 }
+
 
   .home-first-slide, .home-slide {
     flex: 0 0 100%;

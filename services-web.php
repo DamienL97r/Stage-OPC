@@ -4,7 +4,7 @@ require_once __DIR__ . '../layout/header.php';
 ?>
 
 <div class="service-nav">
-    <div class="service-nav-item-blue">
+    <div class="service-nav-item-blue" id="first-service-nav-item">
         <a href="#objetif">
             <img src="/OPC/assets/IMG/Icons/buts.png" alt="icon-objectif">
             <h4>Objectifs</h4>

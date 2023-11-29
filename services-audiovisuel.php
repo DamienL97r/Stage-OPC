@@ -4,7 +4,7 @@ require_once __DIR__ . '../layout/header.php';
 ?>
 
 <div class="service-nav">
-    <div class="service-nav-item-red">
+    <div class="service-nav-item-red" id="first-service-nav-item">
         <a href="#strategie">
             <img src="/OPC/assets/IMG/Icons/icons8-chevalier-96-REVERSE.png" alt="icon-strategie">
             <h4>Stratégie</h4>
